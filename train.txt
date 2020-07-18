@@ -1,0 +1,25 @@
+- Component là thành phần hiển thị nên màn hình
+- Props và sate là 2 kiểu kiểm soát dữ liệu trong component
+   + Props :dữ liệu không thể cập nhật hay thay đôi được
+   + State : trạng thái dữ liệu có thê thay đổi .
+- Style :là phần thuộc tính chỉnh kích cỡ vị chí của view
+   + Witd và height :là kích thước cố định
+   + Flex :là chia màn hình theo tỉ lệ tổng số flex trong trong tầng hay view đấy
+   + FlexDirection : sắp xếp các phần tử trong view bọc theo hàng hoặc cột
+   + JustifyContent :sắp xếp các phần tử  trong view bọc theo trục chính chiều dọc
+   + AlignItem : Săp xếp các phần tử trong view bọc theo trục chính chiều ngang
+- UI :bao gồm các thành phần hiển thị nền hình :Image,Text,ScollView,Flatlist
+- Lifecycle :
+	+ React-Navigate : Mounting (contructor,render,componentDidMount)
+	                   Updating (componentDidUpdate)
+    			   Unmounting (componentWillUnmount)
+- AsyncStorage : + Lưu trữ data dạng local dùng AsyncStorage.setItem để lưu , AsyncStorage.getItem để đọc ,AsyncStorage.clear để xóa bộ dữ liệu
+- Networking :fetch  và axios thực hiện kết nối vs API
+- Navigation : 
+             + StackNavigatorConfig (initalRouteName : setup màn hình mặc định của stack,defaultNavigationOptions : Những config mặc định cho màn hình mặc định)
+	     + Navigation (title : tên màn hình,headerBackImage:icon nút back,headerBackTitle : Text hiển thị bên cạnh navigation bar bên cạnh nút back) 
+             + Một số thuôc tính khác :props.navigation.navigate(name screen) chuyển sang màn hình name screen 
+				       props.navigation.goBack() quay về màn hình trước 
+				       props.navigation.navigate(name screen,param) chuyển màn hình đồng thời chuyền một tham số sang màn hình kế tiếp
+				       props.navigation.getParam(param) lấy giá trị tham số từ màn hình trước
+- Redux :

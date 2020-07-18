@@ -1,0 +1,15 @@
+Harding code : code cứng khó sửa nên khai báo ra một file riêng rồi import 
+Magic number : khong nên so sánh với thảng một chữ sô - nên khai báo 1 biến const rồi gắn number vào rồi so sánh qua biến const
+Non-expressive Variable Names :đặt tên biến và hàm phải có ý nghĩa đúng vs chức năng của hàm hay biến mà chúng đại diện 
+Long Methods :đặt tên không quá dài nhừng phải biểu đạt đủ ndung .
+Code Duplication :code viết quá nhiều lần không cần thiết
+Deep nesting :các hàm các các tầng sâu -> nên chia nhỏ ra các hàm để xử lý từng tác vụ nhỏ 
+
+
+
+Kiss(Keep It Simple Stupid): là viết code đơn giản nhát có thể không nên viết phức tạp
+Yagni(You aren't gonna need it): không nên viết những đoạn code ko dùng -> nên xóa các đoạn mà ko dùng 
+DRY(Don't repeat yourself):không viết lại hay lặp lại code đã viết
+Solid :
+- Single responsibility principle : mỗi class chỉ nên chịu một  trách nghiệm duy nhất
+- Open/closed principle : có thể thoải mái thêm chức năng cho chương trình nhưng không được sửa đổi bên trong class đó , mà nên viết 1 class mới rồi kết thừa lại class cũ
